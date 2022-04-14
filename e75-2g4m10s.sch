@@ -3657,7 +3657,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_" value="220uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BOOT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
-<part name="BTN1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
+<part name="BTN" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="R5" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="2k"/>
@@ -3724,7 +3724,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="NAME" x="307.34" y="32.766" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="307.34" y="25.146" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="BTN1" gate="G$1" x="342.9" y="27.94" smashed="yes">
+<instance part="BTN" gate="G$1" x="342.9" y="27.94" smashed="yes">
 <attribute name="NAME" x="342.9" y="32.766" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="342.9" y="25.146" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -3978,10 +3978,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <junction x="297.18" y="25.4"/>
 </segment>
 <segment>
-<pinref part="BTN1" gate="G$1" pin="1"/>
+<pinref part="BTN" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="27.94" x2="332.74" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="27.94" x2="332.74" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="BTN1" gate="G$1" pin="2"/>
+<pinref part="BTN" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="25.4" x2="337.82" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="25.4" x2="332.74" y2="22.86" width="0.1524" layer="91"/>
 <junction x="332.74" y="25.4"/>
@@ -4357,10 +4357,10 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="279.4" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BTN1" gate="G$1" pin="3"/>
+<pinref part="BTN" gate="G$1" pin="3"/>
 <wire x1="347.98" y1="27.94" x2="353.06" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="27.94" x2="353.06" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="BTN1" gate="G$1" pin="4"/>
+<pinref part="BTN" gate="G$1" pin="4"/>
 <wire x1="353.06" y1="25.4" x2="347.98" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="27.94" x2="360.68" y2="27.94" width="0.1524" layer="91"/>
 <junction x="353.06" y="27.94"/>
