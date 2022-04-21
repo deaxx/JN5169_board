@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1156,7 +1156,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="1.5758" y="5.223" size="0.762" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C18" library="ok-discretes-dev" package="_PKG_C_0402" value="1p2F" x="15.358" y="13.2772" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.3105" y="13.0232" size="0.762" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="14.5325" y="13.7852" size="0.762" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="16.247" y="14.2932" size="0.762" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="E1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="RN-ANT" package3d_urn="urn:adsk.eagle:package:6240828/1" value="ANTENNA" x="24.2776" y="14.3968" smashed="yes" rot="SR180">
@@ -1167,7 +1167,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.3173" y="11.9228" size="0.762" layer="25"/>
+<attribute name="NAME" x="13.4443" y="10.2718" size="0.762" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="13.9827" y="10.7696" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1177,7 +1177,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.1849" y="8.1696" size="0.762" layer="25"/>
+<attribute name="NAME" x="14.5659" y="8.2966" size="0.762" layer="25"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="14.8564" y="7.2083" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1197,7 +1197,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.3932" y="12.0954" size="0.764" layer="25"/>
+<attribute name="NAME" x="13.3452" y="11.8414" size="0.764" layer="25"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="15.3924" y="12.2301" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1207,7 +1207,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.1569" y="8.9041" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.5379" y="9.0311" size="0.762" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="13.3543" y="7.5883" size="1.778" layer="27" display="off"/>
@@ -1247,7 +1247,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="12.776259375" y="5.92021875" size="1.270309375" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="ok-discretes-dev" package="_PKG_C_0402" value="43K" x="13.334034375" y="5.4390375" smashed="yes">
-<attribute name="NAME" x="14.350034375" y="4.6770375" size="0.762" layer="25" font="vector"/>
+<attribute name="NAME" x="14.350034375" y="4.5500375" size="0.762" layer="25" font="vector"/>
 <attribute name="VALUE" x="12.445034375" y="4.4230375" size="0.508" layer="27" font="vector"/>
 </element>
 <element name="C9" library="ok-discretes-dev" package="_PKG_C_0402" value="100n" x="12.573" y="4.445" smashed="yes" rot="R180">
@@ -1505,6 +1505,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="12.939" y="10.434" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="10.907" y="5.716" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="12.05" y="8.93" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="15.91610625" y="11.42595625" extent="1-16" drill="0.2" diameter="0.45"/>
 </signal>
 <signal name="VCC">
 <contactref element="J2" pad="8"/>
@@ -1524,7 +1525,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.684" y1="4.904" x2="11.684" y2="5.08" width="0.3048" layer="1"/>
 <via x="11.684" y="5.08" extent="1-16" drill="0.3"/>
 <wire x1="12.143" y1="4.445" x2="11.303" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="10.414" y1="5.334" x2="9.652" y2="5.334" width="0.3048" layer="1"/>
+<wire x1="9.652" y1="5.334" x2="10.414" y2="5.334" width="0.3048" layer="1"/>
 <wire x1="9.652" y1="5.334" x2="9.275" y2="5.711" width="0.3048" layer="1"/>
 <wire x1="9.275" y1="5.711" x2="9.275" y2="6.171" width="0.3048" layer="1"/>
 <wire x1="11.303" y1="4.445" x2="10.414" y2="5.334" width="0.3048" layer="1"/>
@@ -9375,6 +9376,42 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,16,d138dbb4ab97041f"/>
 <approved hash="4,16,b4b0252d9242fa9c"/>
 <approved hash="4,1,caa2081f54409ac3"/>
+<approved hash="4,3,023a795e993720b3"/>
+<approved hash="4,3,3658436d2323a34b"/>
+<approved hash="4,3,25484a8baac420af"/>
+<approved hash="4,4,023a795e993720b3"/>
+<approved hash="4,4,3658436d2323a34b"/>
+<approved hash="4,4,25484a8baac420af"/>
+<approved hash="4,5,023a795e993720b3"/>
+<approved hash="4,5,3658436d2323a34b"/>
+<approved hash="4,5,25484a8baac420af"/>
+<approved hash="4,6,023a795e993720b3"/>
+<approved hash="4,6,3658436d2323a34b"/>
+<approved hash="4,6,25484a8baac420af"/>
+<approved hash="4,7,023a795e993720b3"/>
+<approved hash="4,7,3658436d2323a34b"/>
+<approved hash="4,7,25484a8baac420af"/>
+<approved hash="4,8,023a795e993720b3"/>
+<approved hash="4,8,3658436d2323a34b"/>
+<approved hash="4,8,25484a8baac420af"/>
+<approved hash="4,9,023a795e993720b3"/>
+<approved hash="4,9,3658436d2323a34b"/>
+<approved hash="4,9,25484a8baac420af"/>
+<approved hash="4,10,023a795e993720b3"/>
+<approved hash="4,10,3658436d2323a34b"/>
+<approved hash="4,10,25484a8baac420af"/>
+<approved hash="4,11,023a795e993720b3"/>
+<approved hash="4,11,3658436d2323a34b"/>
+<approved hash="4,11,25484a8baac420af"/>
+<approved hash="4,12,023a795e993720b3"/>
+<approved hash="4,12,3658436d2323a34b"/>
+<approved hash="4,12,25484a8baac420af"/>
+<approved hash="4,13,023a795e993720b3"/>
+<approved hash="4,13,3658436d2323a34b"/>
+<approved hash="4,13,25484a8baac420af"/>
+<approved hash="4,14,023a795e993720b3"/>
+<approved hash="4,14,3658436d2323a34b"/>
+<approved hash="4,14,25484a8baac420af"/>
 </errors>
 </board>
 </drawing>
