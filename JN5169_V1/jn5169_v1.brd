@@ -219,7 +219,7 @@
 <text x="6.318" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO7</text>
 <text x="7.588" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO8</text>
 <text x="8.731" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO9</text>
-<text x="9.874" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO10</text>
+<text x="10.001" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO10</text>
 <text x="11.271" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">3V3</text>
 <text x="12.541" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">GND</text>
 <text x="9.874" y="23.19" size="0.8128" layer="25" font="vector" ratio="18" rot="SR0">t.me/deaxx</text>
@@ -233,7 +233,6 @@
 <wire x1="8.382" y1="14.351" x2="8.255" y2="14.351" width="0.1524" layer="26"/>
 <wire x1="8.255" y1="14.351" x2="8.128" y2="14.224" width="0.1524" layer="26"/>
 <wire x1="8.128" y1="14.224" x2="8.001" y2="14.224" width="0.1524" layer="26"/>
-<text x="5.048" y="15.316" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">DIO6</text>
 <text x="7.461" y="2.362" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">RX</text>
 <text x="6.064" y="2.362" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">TX</text>
 <text x="8.731" y="2.362" size="0.8128" layer="26" font="vector" ratio="18" rot="MR90">VCC</text>
